@@ -1,0 +1,31 @@
+.collapsed-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  border-top: 5px solid rgb(243, 244, 246);
+  padding: 12px 14px 12px 24px;
+  width: 100%;
+  background-color: white;
+}
+
+.collapsed-form:last-of-type {
+  border-bottom: 5px solid rgb(243, 244, 246);
+}
+
+.collapsed-form-title {
+  font-family: "NotoSans-semibold";
+  font-size: 17px;
+}
+
+.eye {
+  color: rgb(77, 77, 77);
+  transition: 0.2s;
+  font-size: 18px;
+  width: 42.5px;
+  padding: 10px;
+}
+
+.eye:hover {
+  color: black;
+}

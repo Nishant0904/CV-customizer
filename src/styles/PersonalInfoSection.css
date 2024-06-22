@@ -1,0 +1,31 @@
+.personal-info {
+  background-color: var(--resume-accent);
+  color: var(--header-resume-color);
+  width: 100%;
+  padding: 36px 24px;
+}
+
+.resume-name {
+  text-align: center;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin: auto;
+  width: fit-content;
+}
+
+.resume.top .contact-info {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-info > div {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+}

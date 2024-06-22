@@ -1,0 +1,18 @@
+.education-info {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 24px;
+}
+
+.education-info-group {
+  min-width: 150px;
+}
+
+.education-info-schoolName {
+  font-family: var(--resume-bold);
+  font-weight: bold;
+}
+
+.education-info-degree {
+  font-size: 15px;
+}
